@@ -1,0 +1,92 @@
+#register
+{
+    position: absolute;
+    display: flex;
+    list-style-type: none;
+    right: 20px;
+    top: 28px;
+
+}
+#register>li>a
+{
+    background-color: orange;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+#register>li>a:hover
+{
+    background-color: gray;
+    border: 2px solid orange;
+}
+.profile
+{
+    display: flex;
+    position: absolute;
+    right: 0px; 
+    top: 20px;
+}
+.profile_btn
+{
+    position: absolute;
+    
+
+}
+.profile_btn>ul
+{
+    list-style-type: none;
+    display: inline-block;
+
+}
+.profile_btn>ul>li
+{
+   padding: 0%;
+   margin-top: 10px;
+}
+.profile_btn>ul>li>a>img
+{
+    position: absolute;
+    top: -9px;
+    right: -100px;
+    border: 3px solid orange;
+}
+.profile_btn>ul>li>a>img:hover
+{
+    border: 3px solid rgb(230, 46, 67);
+}
+
+
+.profile_data
+{
+    position: fixed;
+    top: 80px;
+    width: 220px;
+    right: 0px;
+    background-color:white;
+    border-radius: 10px;
+    max-height: 0;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: max-height 0.5s;
+
+}
+.profile_data.active
+{
+    max-height: 500px;
+}
+
+.search
+{
+    background-color: rgb(29, 201, 23);
+    border: 3px solid red;
+    padding: 7px 10px 7px 20px;
+    border-radius: 20px;
+
+}
+.search:hover
+{
+    background-color: black;
+    color: white;
+    border: 3px orange solid;
+}
